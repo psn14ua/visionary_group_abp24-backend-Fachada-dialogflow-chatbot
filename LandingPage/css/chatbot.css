@@ -1,0 +1,13 @@
+df-messenger {
+    --df-messenger-bot-message: #e6d8f0; /* Fondo de mensaje del bot: tono suave complementario */
+    --df-messenger-user-message: #d1c4e9; /* Fondo de mensaje del usuario: ligeramente más fuerte */
+    --df-messenger-button-titlebar-color: #540b7a; /* Botón y barra de título */
+    --df-messenger-button-titlebar-font-color: #ffffff; /* Texto de la barra de título: blanco para contraste */
+    --df-messenger-chat-background-color: #f7f3fa; /* Fondo general del chat: tono muy claro */
+    --df-messenger-font-color: #4a4a4a; /* Fuente general: gris oscuro */
+    --df-messenger-input-box-color: #ffffff; /* Fondo de la casilla de entrada: blanco */
+    --df-messenger-input-font-color: #4a4a4a; /* Texto en la casilla de entrada: gris oscuro */
+    --df-messenger-input-placeholder-font-color: #a1a1a1; /* Texto del marcador de posición: gris claro */
+    --df-messenger-minimized-chat-close-icon-color: #540b7a; /* Ícono de cierre: color base */
+    --df-messenger-send-icon: #540b7a; /* Ícono de envío: color base */
+  }

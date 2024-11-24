@@ -1,0 +1,19 @@
+<main class="main-autenticacion-usuario">
+        <h1>INICIO SESIÓN</h1>
+        <form class="formulario-autenticacion-usuario">
+            <input class="introducir" type="email" name="correo" placeholder="Email">
+            <input class="introducir" type="password" name="password" placeholder="Contraseña">
+            <div class="textos">
+                <label for="recordar" class="recordar">
+                    <input id="recordar" type="checkbox" name="recordar">
+                    Recuérdame
+                </label>
+
+                <a href="#" class="camuflarA">¿Has olvidado tu contraseña?</a>
+
+            </div>
+            <input class="boton-autenticacion-usuario" type="button" value="Iniciar Sesión">
+        </form>
+        <p class="textos camuflarA" id="pregunta" (click)="redirigir()">¿No tienes una cuenta?</p>
+        <p class="textos">Inicia Sesión con Google</p>
+</main>

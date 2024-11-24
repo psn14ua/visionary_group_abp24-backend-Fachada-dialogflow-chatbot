@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
+:root{
+    
+}
+
+
+html{
+
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+body{
+    background-color: #FFFFFF;
+    min-height: 100vh;
+    height: 100%;
+    margin: 0;
+}
+
+/////////////////////////////////////////////
+/////////////////////////////////////////////
+/////////////////////////////////////////////
+////////// PARTE LOGIN Y REGISTRO ///////////
+/////////////////////////////////////////////
+/////////////////////////////////////////////
+/////////////////////////////////////////////
+
+.main-autenticacion-usuario{
+    width: 400px;
+    border-radius: 50px;
+    margin: auto;
+    background:linear-gradient(to bottom, #540B7A, #9a1fdd);
+    padding: 0.5em;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.main-autenticacion-usuario #pregunta{
+    margin: auto;
+    color: white;
+}
+
+.main-autenticacion-usuario > p{
+    text-align: center;
+    font-weight: bold;
+}
+
+.main-autenticacion-usuario h1{
+    text-align: center;
+    margin: 0;
+    margin-bottom: 0.5em;
+    color: white;
+}
+.formulario-autenticacion-usuario{
+    display: flex;
+    flex-direction: column;
+}
+
+.boton-autenticacion-usuario{
+    width: 150px;
+    height: 2.5em;
+    border-radius: 6px;
+    
+    cursor: pointer;
+    margin: auto;
+    background-color: #fff;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    transition: all 0.5s ease;
+
+
+}
+
+.boton-autenticacion-usuario:hover{
+    background-color: #c173eb;
+    color: black;
+}
+
+.main-autenticacion-usuario .textos{
+    font-size: 0.8em;
+}
+
+
+
+
+
+.main-autenticacion-usuario .camuflarA{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+
+}
+
+
+
+.main-autenticacion-usuario .introducir{
+    font-size: 1em;
+    padding: 0 1em;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 70%;
+    border-radius: 10px;
+    height: 2em;
+    margin: auto;
+    margin-bottom: 0.6em;
+}
+
+.main-autenticacion-usuario .introducir:focus {
+    border: 2px solid #540B7A;
+    box-shadow: 0 4px 12px rgba(74, 144, 226, 0.3); /* Sombra más intensa */
+}
+
+.main-autenticacion-usuario .introducir::placeholder {
+    color: #aaa; /* Color del texto del placeholder */
+    opacity: 1; /* Asegura que sea completamente visible en algunos navegadores */
+}
+
+
+.formulario-autenticacion-usuario div{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    margin: 0.5em auto;
+
+}
+
+.main-autenticacion-usuario #recordar{
+    cursor: pointer;
+}
+
+.main-autenticacion-usuario .recordar{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+
+/////////////////////////////////////////////
+/////////////////////////////////////////////
+/////////////////////////////////////////////
+//////// FIN PARTE LOGIN Y REGISTRO /////////
+/////////////////////////////////////////////
+/////////////////////////////////////////////
+/////////////////////////////////////////////
+
+
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';
